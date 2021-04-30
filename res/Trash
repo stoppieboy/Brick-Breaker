@@ -1,0 +1,23 @@
+//		Thread game_start = new Thread() {
+//			public void run() {
+//				while(true) {
+//					
+//					this.update();
+//					repaint();
+//					
+//					try {
+//						Thread.sleep(1000/REFRESH_RATE);
+//					} catch (InterruptedException e) {
+//						e.printStackTrace();
+//						System.out.println("Something wrong in the sleep function");
+//					}
+//				}
+//			}
+//			
+//			public void update() {
+//				
+//			}
+//		};
+//		game_start.setName("gui");
+//		 game_start.start();
+//		 System.out.println(Thread.currentThread().getName());
